@@ -29,7 +29,7 @@ class HelloController {
 	}
 }
 
-@RestController
+@RequestMapping
 class HellController {
 	@GetMapping("/pupi")
 	String hello() {
