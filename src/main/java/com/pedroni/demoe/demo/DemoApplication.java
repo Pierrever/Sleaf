@@ -28,3 +28,11 @@ class HelloController {
 		return "Hello and zyes and Peter";
 	}
 }
+
+@RestController
+class HellController {
+	@GetMapping("/pupi")
+	String hello() {
+		return "And coming";
+	}
+}
